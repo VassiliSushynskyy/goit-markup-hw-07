@@ -1,0 +1,92 @@
+.footer {
+  background: var(--color-backgrount-hero-footer);
+  color: var(--text-on-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.studio-footer {
+  color: var(--text-on-background-color);
+}
+.adress {
+  background: var(--color-backgrount-hero-footer);
+  color: var(--text-on-background-color);
+  margin-top: 20px;
+}
+.place-map {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-on-background-color);
+  margin-bottom: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-mail {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-tel {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.place-map:hover,
+.place-map:focus {
+  color: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail,
+.tel {
+  margin-top: 9px;
+}
+.footer-sections {
+  display: flex;
+  align-items: baseline;
+}
+.footer-social-list {
+  color: #afb1b8;
+  margin: 20px 0 0 0;
+}
+.footer-social-link {
+  color: var(--text-on-background-color);
+  background: rgba(255, 255, 255, 0.1);
+  fill: currentColor;
+}
+.footer-social {
+  margin-left: 70px;
+}
+.footer-social-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
