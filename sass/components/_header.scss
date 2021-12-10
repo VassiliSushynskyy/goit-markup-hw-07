@@ -12,6 +12,9 @@
 .header {
   border-bottom: 1px solid #ececec;
 }
+.header-logo {
+  margin-right: 93px;
+}
 .navigation-list {
   display: flex;
   align-items: center;
@@ -31,12 +34,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.studio-header-logo {
-  color: #000000;
-}
-.header-logo {
-  margin-right: 93px;
-}
+
 .header-link {
   display: flex;
   position: relative;

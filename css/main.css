@@ -112,6 +112,10 @@ ul {
   border-bottom: 1px solid #ececec;
 }
 
+.header-logo {
+  margin-right: 93px;
+}
+
 .navigation-list {
   display: flex;
   align-items: center;
@@ -133,14 +137,6 @@ ul {
   color: var(--accent-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.studio-header-logo {
-  color: #000000;
-}
-
-.header-logo {
-  margin-right: 93px;
 }
 
 .header-link {
@@ -212,6 +208,10 @@ ul {
   letter-spacing: 0.03em;
   display: inline-block;
   display: flex;
+}
+
+.logo__header {
+  color: #000000;
 }
 
 .hero {
