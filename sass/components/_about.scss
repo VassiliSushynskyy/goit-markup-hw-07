@@ -30,11 +30,11 @@
 
   background: rgba(47, 48, 58, 0.8);
 }
-.about-us-lists .list:not(:last-child) {
-  margin-right: 30px;
-}
 
 .about-us-lists {
   display: flex;
   margin-top: 50px;
+  & .list:not(:last-child) {
+    margin-right: 30px;
+  }
 }
