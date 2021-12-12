@@ -1,14 +1,14 @@
-.project-btn {
+.porfolio__button-list {
   color: var(--primary-color-text);
 
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  & .project-item-btn:not(last-child) {
+  & .porfolio__button-item:not(last-child) {
     margin-right: 8px;
   }
 }
-.button-project {
+.porfolio__button-btn {
   border-radius: 4px;
   color: var(--primary-color-text);
   font-family: inherit;
