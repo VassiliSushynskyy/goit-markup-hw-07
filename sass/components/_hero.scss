@@ -1,4 +1,10 @@
 .hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--color-backgrount-hero-footer);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -9,13 +15,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.title-hero {
+.hero__text {
   color: var(--text-on-background-color);
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  @include font(44px, 900, 1.36, 0.06em);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -24,7 +26,7 @@
   width: 696px;
   height: 120px;
 }
-.hero-btn {
+.hero__button {
   background: var(--accent-color);
   color: var(--text-on-background-color);
   font-weight: 700;
@@ -40,12 +42,4 @@
   &:focus {
     background: #188ce8;
   }
-}
-.hero-section {
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 }

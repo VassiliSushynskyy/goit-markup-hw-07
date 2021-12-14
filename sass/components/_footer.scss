@@ -4,18 +4,15 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.studio-footer {
+.footer__logo {
   color: var(--text-on-background-color);
 }
-.adress {
+.footer__address {
   background: var(--color-backgrount-hero-footer);
   color: var(--text-on-background-color);
   margin-top: 20px;
 }
-.place-map {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+.footer__link-place-map {
   font-size: 14px;
   line-height: 1.71;
   color: var(--text-on-background-color);
@@ -29,30 +26,12 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-.footer-mail {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+.footer__link-tel,
+.footer__link-mail {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 10px;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-}
-.footer-tel {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
@@ -63,11 +42,11 @@
   }
 }
 
-.mail,
-.tel {
+.address__mail,
+.address__tel {
   margin-top: 9px;
 }
-.footer-sections {
+.footer__sections {
   display: flex;
   align-items: baseline;
 }

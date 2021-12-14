@@ -1,8 +1,8 @@
-.cart__thumb {
+.cards__thumb {
   position: relative;
   overflow: hidden;
 }
-.cart__text {
+.cards__overtext {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
@@ -16,40 +16,40 @@
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.9);
 }
-.portfolio__link:hover .cart__text,
-.portfolio__link:focus .cart__text {
+.cards__link:hover .cards__overtext,
+.cards__link:focus .cards__overtext {
   transform: translateY(0);
 }
-.portfolio__link:hover,
-.portfolio__link:focus {
+.cards__link:hover,
+.cards__link:focus {
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.descript__text {
+.cards__text {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.descript__job {
+.cards__job {
   color: var(--secondary-color-text);
   font-size: 16px;
   line-height: 1.87;
   margin-top: 4px;
 }
-.portfolio__list {
+.cards {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
-.portfolio__item {
+.cards__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
-.descript__content {
+.cards__descript-content {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;

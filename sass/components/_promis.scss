@@ -1,18 +1,16 @@
 .promis {
   padding-bottom: 0px;
 }
-.promis-container {
+.promis__list {
   display: flex;
-}
-.promis-lists {
   padding: 0;
 }
-.promis-list {
+.promis__item {
   min-width: 270px;
   min-height: 101px;
   margin-right: 30px;
 }
-.promis-icons {
+.promis__icons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,14 +19,14 @@
   background-color: #f5f4fa;
   border-radius: 4px;
 }
-.promis-h {
+.promis__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.promis-text {
+.promis__text {
   color: var(--secondary-color-text);
   font-size: 14px;
   line-height: 1.71;
