@@ -1,9 +1,9 @@
-.section-subscript {
+.form-subscript {
   justify-content: center;
   align-items: center;
   margin-left: auto;
 }
-.subscript-text {
+.form-subscript__text {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -11,7 +11,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.input-subscript {
+.form-subscript__input {
   padding-left: 16px;
   color: var(--text-on-background-color);
   width: 358px;
@@ -24,7 +24,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
-.btn-subscript {
+.form-subscript__button {
   margin-left: 12px;
   display: inline-block;
   padding-right: 62px;
@@ -35,7 +35,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.icon-send {
+.form-subscript__icon {
   position: absolute;
   margin-left: 10px;
   fill: var(--text-on-background-color);
